@@ -1,0 +1,19 @@
+# Ignorer tous les fichiers de maillages 3D lourds
+*.dae
+*.stl
+*.obj
+*.ply
+
+# Ignorer d'éventuels sacs de données et archives lourdes
+*.bag
+*.mcap
+*.pcd
+*.tar.gz
+*.zip
+
+# Ignorer caches et fichiers temporaires
+__pycache__/
+*.pyc
+.vscode/
+*~
+.DS_Store
