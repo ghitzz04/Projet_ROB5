@@ -166,7 +166,7 @@ setup(
     python_requires='>=3.7, <4',
     install_requires=[
         'psutil >=5.9.5, <6',
-        'zeroconf ==0.58.2',
+        'zeroconf ==0.149.16',
         'click >=8.1.3, <9',
         'python-magic ==0.4.27',
         'importlib_metadata ==6.6.0',
@@ -184,7 +184,7 @@ setup(
     extras_require={
         'test': [
             'pytest >=7.0, <8',
-            'flask==2.2.5'
+            'flask==3.1.3'
         ],
         'dev': ['flake8', 'mypy', 'pylsp-mypy', 'python-lsp-server', 'yapf'],
         'docs': [
